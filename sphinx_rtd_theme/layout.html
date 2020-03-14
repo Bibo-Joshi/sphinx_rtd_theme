@@ -128,6 +128,9 @@
           {% endif %}
           </a>
 
+          {% endblock %}
+        </div>
+        <div class="wy-side-search" {% if theme_style_nav_header_background %} style="background: {{theme_style_nav_header_background}}" {% endif %}>
           {% if theme_display_version %}
             {%- set nav_version = version %}
             {% if READTHEDOCS and current_version %}
@@ -139,10 +142,7 @@
               </div>
             {% endif %}
           {% endif %}
-
           {% include "searchbox.html" %}
-
-          {% endblock %}
         </div>
 
         {% block navigation %}

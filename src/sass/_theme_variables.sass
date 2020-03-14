@@ -2,6 +2,23 @@
 // that are set in wyrm_core/wy_variables.sass. You'll find wyrm in bower_components if you're looking
 // for a reference.
 
+//
+//Override defaults
+//
+$dark-red:                            #711c2f
+$red:                                 #be1e3c
+$orange:                              #e16d00
+//override blue:
+$blue:                                $red
+
+$menu-background-color:               $dark-red
+$section-background-color:            #fafafa
+$link-color:                          $orange
+$link-color-visited:                  $red
+$link-color-hover:                    lighten($link-color, 6%)// !default
+$link-color-alt:                      $dark-red
+
+
 $fa-font-path:                        "~font-awesome/fonts"
 $static-img:                          "../img/"
 
@@ -17,11 +34,11 @@ $text-viewcode-color:                 $green
 $text-codexref-color:                 $text-color
 
 // Definition list colors
-$class-color:                         $blue
-$method-color:                        $gray
+$class-color:                         $dark-red
+$method-color:                        $red
 
 // GUI label color
-$guilabel-color:                      $blue
+$guilabel-color:                      $orange
 
 // Footer colors
 $footer-color:                        $text-medium
@@ -45,13 +62,13 @@ $menu-link-active:                    $white
 
 // Navigation colors
 $nav-background-color:                $menu-background-color
-$nav-search-background-color:         $blue
+$nav-search-background-color:         $orange
 $nav-search-color:                    $section-background-color
-$nav-link-color:                      $blue
-$nav-link-color-visited:              $purple
-$nav-link-color-hover:                lighten($nav-link-color, 6%) !default
-$nav-link-color-alt:                  hsl(33, 100%, 51%)
-$nav-caption:                         lighten($blue, 15%)
+$nav-link-color:                      $orange
+$nav-link-color-visited:              $red
+$nav-link-color-hover:                lighten($nav-link-color, 6%)// !default
+$nav-link-color-alt:                  $dark-red
+$nav-caption:                         lighten($orange, 15%)
 
 // Sidebar colors
 $sidebar-background-color:            $table-stripe-color
