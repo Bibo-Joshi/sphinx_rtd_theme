@@ -2,6 +2,11 @@
 Read the Docs Sphinx Theme
 **************************
 
+Forked from the official `RTD Sphinx Theme`_. For a guide on how to develop, the `the docs`_ on it.
+
+.. _`RTD Sphinx Theme`: https://github.com/readthedocs/sphinx_rtd_theme
+.. _`the docs`: 
+
 .. image:: https://img.shields.io/pypi/v/sphinx_rtd_theme.svg
    :target: https://pypi.python.org/pypi/sphinx_rtd_theme
    :alt: Pypi Version
